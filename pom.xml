@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Class_sessions  </groupId>
+  <artifactId>class_sessions_com</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+ <packaging>pom</packaging>
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.10.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>4.10.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-edge-driver</artifactId>
+    <version>4.10.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/jquery -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>jquery</artifactId>
+    <version>3.7.0</version>
+</dependency>
+
+
+	<!-- SLF4J Bridge -->
+	<dependency>
+		<groupId>org.apache.logging.log4j</groupId>
+		<artifactId>log4j-slf4j-impl</artifactId>
+		<version>2.11.2</version>
+	</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.googlejavaformat/google-java-format -->
+<dependency>
+    <groupId>com.google.googlejavaformat</groupId>
+    <artifactId>google-java-format</artifactId>
+    <version>1.17.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.googlecode.owasp-java-html-sanitizer/owasp-java-html-sanitizer -->
+<dependency>
+    <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
+    <artifactId>owasp-java-html-sanitizer</artifactId>
+    <version>20220608.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.0</version>
+</dependency>
+  </dependencies>
+</project>
